@@ -1,24 +1,30 @@
-spring-boot-scala-web
+scala-zuul-spring-boot-example
 ====================
-A sample web application using spring-boot and Scala
+A Scala example for spring-boot and zuul
 
+## Build and Run:
 
-Using gradle as the build tool:
--------------------------------
+### Build
 
-Build using `./gradlew build`
-Run using `./gradlew bootRun`
-OR
-Run using: `java -jar build/libs/spring-boot-scala-web-0.1.0.jar`
+Build using 
+```
+./gradlew build
+```
 
-A url listing the hotels is at [http://localhost:8080/hotels](http://localhost:8080/hotels)
+### Run
 
+#### Run with gradle 
+ 
+```
+./gradlew bootRun
+```
 
-Using sbt as the build tool:
-----------------------------
+#### Run with java 
+ 
+```
+java -jar build/libs/scala-zuul-spring-boot-example-0.0.1.jar
+```
 
-Start up the sbt console using `sbt`
-Run the Spring boot main program using `runMain mvctest.SampleWebApplication`
 
 
 
