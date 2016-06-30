@@ -1,0 +1,5 @@
+zuul:  
+  routes:
+    foobar:
+      path: /*
+      url: http://localhost:8080/ping
